@@ -1,6 +1,6 @@
 # English for kids
 
-[**English for kids**](https://boriskrasko.github.io/english-for-kids/) - an application for learning English words for kids.
+[**English for kids**](https://englishforkid.fun/) - an application for learning English words for kids.
 
 ## Application Structure:
 1. Main page
@@ -9,11 +9,11 @@
 
 ## [Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/rslang/english-for-kids-translated.md)
 
-## [Deploy](https://boriskrasko.github.io/english-for-kids)
+## [Deploy](https://englishforkid.fun/)
 
  ### Start Screen 
  
- ![](https://boriskrasko.github.io/english-for-kids/pages/efk.png)
+ ![](https://github.com/TrinhQuoc-Dat/english-for-kids/pages/efk.png)
 
 ## Stack: 
   * JavaScript(ES6)
@@ -30,21 +30,21 @@
  
  ### Page markup
  
- ![](https://boriskrasko.github.io/english-for-kids/pages/efk-markup.png)
+ ![](https://github.com/TrinhQuoc-Dat/english-for-kids/pages/efk-markup.png)
  
  ### Menu and card markup
  
- ![](https://boriskrasko.github.io/english-for-kids/pages/efk-markup-components.png)
+ ![](https://github.com/TrinhQuoc-Dat/english-for-kids/pages/efk-markup-components.png)
  
  ### Adding colors
  
- ![](https://boriskrasko.github.io/english-for-kids/pages/efk-colors.png)
+ ![](https://github.com/TrinhQuoc-Dat/english-for-kids/pages/efk-colors.png)
  
  ### Card markup
  
- ![](https://boriskrasko.github.io/english-for-kids/pages/efk-titles.png)
+ ![](https://github.com/TrinhQuoc-Dat/english-for-kids/pages/efk-titles.png)
  
  ### Responsive layout
  
- ![](https://boriskrasko.github.io/english-for-kids/pages/efk-adaptive.png)
+ ![](https://github.com/TrinhQuoc-Dat/english-for-kids/pages/efk-adaptive.png)
  
