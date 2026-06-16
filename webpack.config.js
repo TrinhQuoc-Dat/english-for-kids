@@ -6,8 +6,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: {
-        main: path.resolve(__dirname, './src'),
-    },
+    main: path.resolve(__dirname, './src/index.js'),
+},
     plugins: [
         new CleanWebpackPlugin(),
         new webpack.HotModuleReplacementPlugin(),
@@ -24,18 +24,21 @@ module.exports = {
             chunkFilename: "[id].css",
           }),
     ],
-    output: {
-        path: path.resolve(__dirname, './dist'),
-    },
-     mode: 'development',
-    devServer: {
-        historyApiFallback: true,
-        contentBase: path.resolve(__dirname, './dist'),
-        open: true,
-        compress: true,
-        hot: true,
-        port: 8080,
-      },
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    filename: '[name].bundle.js',
+    publicPath: '/',
+    clean: true,
+},
+     mode: 'production',
+devServer: {
+    static: path.resolve(__dirname, './dist'),
+    historyApiFallback: true,
+    open: true,
+    compress: true,
+    hot: true,
+    port: 8080,
+},
     module: {
         rules: [
             {
